@@ -1,0 +1,11 @@
+<p>cont works!</p>
+
+{{numero.tot}}
+<br>
+{{numero.n_click}}
+<br>
+<button (click)="addFavorito()">Favorito</button>
+
+<app-fav *ngFor="let numero of vet_n" [numero]="numero">
+
+</app-fav>
